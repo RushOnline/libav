@@ -101,6 +101,7 @@ void avfilter_register_all(void)
     REGISTER_FILTER(TRIM,           trim,           vf);
     REGISTER_FILTER(UNSHARP,        unsharp,        vf);
     REGISTER_FILTER(VFLIP,          vflip,          vf);
+    REGISTER_FILTER(VHS,            vhs,            vf);
     REGISTER_FILTER(YADIF,          yadif,          vf);
 
     REGISTER_FILTER(COLOR,          color,          vsrc);
